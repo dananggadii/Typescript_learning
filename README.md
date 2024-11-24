@@ -108,3 +108,30 @@ npm install --save-dev @jest/globals
 
 ![image](https://github.com/user-attachments/assets/b55c6b37-ceb3-420d-8b63-e65fa170d85b)
 
+### Test Typescript 
+> Add `src/main.ts` and `test/main.test.ts`
+
+![image](https://github.com/user-attachments/assets/326e0804-b414-4d2a-8c93-811d82ad60fe)
+
+> Type code below on `src/main.ts`
+```
+export function saayHello(name: string): string {
+  return `Hello ${name}`;
+}
+```
+
+> Type code below on `test/main.test.ts`
+```
+// test.test.ts
+import { saayHello } from "../src/main"; // Ganti 'yourModule' dengan nama file Anda
+
+describe("saayHello function", () => {
+  it("should return the correct greeting message", () => {
+    expect(saayHello("World")).toBe("Hello World");
+  });
+});
+```
+
+> Run `npm test` on terminal
+
+![image](https://github.com/user-attachments/assets/016967b0-a06e-4f2b-a107-3d84b1a82377)
