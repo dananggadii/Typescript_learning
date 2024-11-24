@@ -1,6 +1,6 @@
 # Typescript learning
 
-## Requirement 
+> Requirement 
 1. NodeJS
 2. Code Editor
 
