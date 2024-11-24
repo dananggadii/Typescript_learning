@@ -4,20 +4,6 @@
 > 1. NodeJS
 > 2. Code Editor
 
-### Install Typescript 
-```
-npm i -g typescript
-```
-
-![image](https://github.com/user-attachments/assets/f366605a-fb81-494b-bb7a-e31a7172374a)
-
-> Check typescript version
-```
-tsc -v
-```
-
-![image](https://github.com/user-attachments/assets/f9b10824-2bba-4ccd-8680-22175d8c182b)
-
 ### Config NPM 
 ```
 npm init -y
@@ -68,4 +54,57 @@ Setup babel installation `https://babeljs.io/setup#installation`
 
 ![image](https://github.com/user-attachments/assets/4e360b71-d04d-4ad8-b39c-9b0dcb20ab56)
 
+### Install Typescript 
+```
+npm i -g typescript
+```
+
+![image](https://github.com/user-attachments/assets/f366605a-fb81-494b-bb7a-e31a7172374a)
+
+> Check typescript version
+```
+tsc -v
+```
+
+![image](https://github.com/user-attachments/assets/f9b10824-2bba-4ccd-8680-22175d8c182b)
+
+### Setup TypeScript Project
+```
+npx tsc --init
+```
+
+![image](https://github.com/user-attachments/assets/65d684f7-ff69-4a19-bba9-a07e86ccbeeb)
+
+> Change `module` from `commonjs` to `ES6`
+
+![image](https://github.com/user-attachments/assets/bb7e3926-6cd2-4183-9bd8-bb511d457ccd)
+
+### Setup TypeScript for Jest
+> `https://jestjs.io/docs/getting-started#using-typescript`
+
+```
+npm install --save-dev @babel/preset-typescript
+```
+
+![image](https://github.com/user-attachments/assets/87de4c78-001c-491e-b817-52bc0d633013)
+
+> Then add `@babel/preset-typescript` to the list of presets in your `babel.config.js`
+
+![image](https://github.com/user-attachments/assets/912a2893-6055-495d-ac03-94c4e4cbd83b)
+
+> Via ts-jest
+
+```
+npm install --save-dev ts-jest
+```
+
+![image](https://github.com/user-attachments/assets/1da25cec-d389-423a-9446-d36443554b78)
+
+> Type definitions
+
+```
+npm install --save-dev @jest/globals
+```
+
+![image](https://github.com/user-attachments/assets/b55c6b37-ceb3-420d-8b63-e65fa170d85b)
 
