@@ -45,7 +45,7 @@ npm install --save-dev babel-jest @babel/preset-env
 ![image](https://github.com/user-attachments/assets/9865ee55-94ca-450f-a23f-ae7b7137a566)
 
 Setup babel installation `https://babeljs.io/setup#installation`
-> In your package.json file make the following changes:
+> In your `package.json` file make the following changes:
 ```
 "scripts": {
     "test": "jest"
@@ -56,3 +56,16 @@ Setup babel installation `https://babeljs.io/setup#installation`
     }
   },
 ```
+
+![image](https://github.com/user-attachments/assets/830afe8c-1b7a-424b-b94d-ae56e46223b8)
+
+> In order to enable the preset you have to define it in your `babel.config.json` file, like this:
+```
+{
+  "presets": ["@babel/preset-env"]
+}
+```
+
+![image](https://github.com/user-attachments/assets/4e360b71-d04d-4ad8-b39c-9b0dcb20ab56)
+
+
