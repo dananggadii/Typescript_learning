@@ -44,7 +44,7 @@ npm install --save-dev babel-jest @babel/preset-env
 
 ![image](https://github.com/user-attachments/assets/9865ee55-94ca-450f-a23f-ae7b7137a566)
 
-> Setup babel installation `https://babeljs.io/setup#installation`
+Setup babel installation `https://babeljs.io/setup#installation`
 > In your package.json file make the following changes:
 ```
 "scripts": {
