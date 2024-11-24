@@ -1,8 +1,8 @@
 # Typescript learning
 
 > Requirement 
-1. NodeJS
-2. Code Editor
+> 1. NodeJS
+> 2. Code Editor
 
 ### Install Typescript 
 ```
