@@ -122,7 +122,6 @@ export function saayHello(name: string): string {
 
 Type code below on `test/main.test.ts`
 ```
-// test.test.ts
 import { saayHello } from "../src/main"; // Ganti 'yourModule' dengan nama file Anda
 
 describe("saayHello function", () => {
@@ -135,3 +134,18 @@ describe("saayHello function", () => {
 Run `npm test` on terminal
 
 ![image](https://github.com/user-attachments/assets/016967b0-a06e-4f2b-a107-3d84b1a82377)
+
+### Compile TS to JS 
+```
+"outDir": "dist/",
+```
+
+![image](https://github.com/user-attachments/assets/1aa7576f-fd7e-45c4-90ce-6179c939580b)
+
+> Add Include and Exclude
+```
+    "include": ["src/**/*", "test/**/*"],
+    "exclude": ["src/**/*.test.ts", "test/**/*.test.ts"],
+```
+
+![image](https://github.com/user-attachments/assets/d0f2187c-35b1-4d7e-94ed-13fb3f444d62)
