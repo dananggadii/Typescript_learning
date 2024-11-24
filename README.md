@@ -144,8 +144,8 @@ Run `npm test` on terminal
 
 Add Include and Exclude
 ```
-    "include": ["src/**/*", "test/**/*"],
-    "exclude": ["src/**/*.test.ts", "test/**/*.test.ts"],
+"include": ["src/**/*", "test/**/*"],
+"exclude": ["src/**/*.test.ts", "test/**/*.test.ts"],
 ```
 
 ![image](https://github.com/user-attachments/assets/d0f2187c-35b1-4d7e-94ed-13fb3f444d62)
