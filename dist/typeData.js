@@ -1,0 +1,11 @@
+"use strict";
+const personalName = "Danang";
+const balance = 19;
+const isVip = true;
+console.info(personalName);
+console.info(balance);
+console.info(isVip);
+const fruits = ["Apple", "Mango", "Guava"];
+const price = [20000, 30000, 50000];
+console.info(fruits[2]);
+console.info(price[1]);
