@@ -1,3 +1,4 @@
+// any = membuat type data object dapat menyimpan beragam type data
 const personalData: any = {
   name: "Danang",
   age: 19,

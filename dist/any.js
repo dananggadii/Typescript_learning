@@ -1,4 +1,5 @@
 "use strict";
+// any = membuat type data object dapat menyimpan beragam type data
 const personalData = {
     name: "Danang",
     age: 19,
